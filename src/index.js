@@ -2,9 +2,9 @@
 // version 1=>2
 function factorial(n) {
   // 팩토리얼
-  if (n < 0) {
-    throw new Error("n must be a positive integer");
-  }
+  // if (n < 0) {
+  //   throw new Error("n must be a positive integer");
+  // }
 
   if (n === 0) {
     return 1;
